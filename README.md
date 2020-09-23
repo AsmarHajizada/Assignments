@@ -1,2 +1,2 @@
 # C-Homework
-A repository for uploading homework for assignments from C programming language.
+A repository where I will upload weekly assignments from C programming language.
