@@ -1,2 +1,2 @@
-# C-Homework
-A repository where I will upload weekly assignments from C programming language.
+## Assignments
+A repository to upload weekly assignments from C programming language.
