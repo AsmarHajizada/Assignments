@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 void swapArrays(int a1[], int a2[], int len);           
 void print2DArr(int *arr2D[], int rows, int columns);
