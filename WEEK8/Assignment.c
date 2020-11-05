@@ -79,6 +79,19 @@ void lucky(node_p ** head, char *key)
 }
 
 
+void freeList(node_p **head)
+{
+	node_p * now = *head, *next;
+	while(now != NULL)
+	{
+		next = now -> next;
+		free(now);
+		now = next;
+	}
+
+	*head = NULL;
+}
+
 int main()
 {
 	node_p *head = (node_p *) malloc(sizeof(node_p));
@@ -125,6 +138,7 @@ int main()
 	free(head);
 	head = NULL; 
 	
-	
+	freeList(&head);
+
 	return 0;
 }
