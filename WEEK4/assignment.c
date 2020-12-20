@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<stdbool.h>
+#include <stdbool.h>
 
 int solveMaze(char **maze, const int HT, const int WD, int a, int b); 
 void printM(char **maze, const int HT, const int WD); 
